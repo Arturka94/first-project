@@ -1,0 +1,71 @@
+body {
+    background-color: lightgray;
+}
+header {
+    background-color: red;
+    display:flex;
+    justify-content: center;
+    font-weight: 900;
+    color: white;
+    font-size: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}    
+.container {
+    width: 60%;
+    display:flex;
+    justify-content: space-between;
+}
+.mouse {
+    padding: 10px;
+    border-radius: 10px;
+}    
+.mouse:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    transition: .3s;
+    
+}
+h1 {
+    text-align: center;
+    color: red;
+    padding-top: 20px;
+}    
+.content {
+    display:flex;
+    justify-content: center; 
+}
+.content-container {
+    width: 90%;
+    
+}
+.capture-container {
+    display:flex;
+    justify-content: space-between; 
+    flex-wrap: wrap;
+}
+.capture {
+    background-color: white;
+    padding: 5px;
+    width: 30%;
+    margin-bottom: 10px;
+}
+.capture-img {
+    width: 100%;
+    height: 200px;
+    background-image: url("putin.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.foot {
+    margin-top: 50px; 
+    margin-bottom: 40px;
+    background-color: red; 
+    height: 2px;
+}
+.text {
+    text-align: center;
+    padding-top: 10px;
+}
